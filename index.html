@@ -4,14 +4,90 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rayen Art Gallery</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:40px;
+}
+
+h1{
+    margin:0;
+    font-size:3em;
+}
+
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:40px;
+}
+
+.art{
+    background:white;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.art img{
+    width:300px;
+    border-radius:10px;
+}
+
+.contact{
+    background:#222;
+    color:white;
+    padding:30px;
+}
+</style>
+
 </head>
 <body>
 
+<header>
 <h1>Rayen Art Gallery</h1>
+<p>Original Artwork • Illustrations • Custom Commissions</p>
+</header>
 
-<p>Welcome to my online art gallery .</p>
+<section>
+<h2>Featured Artwork</h2>
 
-<p>Discover original artworks and custom commissions.</p>
+<div class="gallery">
+
+<div class="art">
+<img src="https://via.placeholder.com/300x400" alt="Artwork 1">
+<p>Artwork 1</p>
+</div>
+
+<div class="art">
+<img src="https://via.placeholder.com/300x400" alt="Artwork 2">
+<p>Artwork 2</p>
+</div>
+
+<div class="art">
+<img src="https://via.placeholder.com/300x400" alt="Artwork 3">
+<p>Artwork 3</p>
+</div>
+
+</div>
+</section>
+
+<div class="contact">
+<h2>Contact</h2>
+<p>Email: rayen.mbarek@gmail.com</p>
+<p>Instagram: <a href="https://www.instagram.com/rayen_m.barek?igsh=NGVrb2NlcnFrMGxo" target="_blank">@rayen_m.barek</a></p>
+
+</div>
 
 </body>
 </html>
