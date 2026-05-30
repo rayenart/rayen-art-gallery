@@ -19,6 +19,12 @@ header{
     padding:40px;
 }
 
+.logo{
+    width:120px;
+    height:auto;
+    margin-bottom:20px;
+}
+
 h1{
     margin:0;
     font-size:3em;
@@ -34,13 +40,14 @@ h1{
 
 .art{
     background:white;
-    padding:10px;
+    padding:15px;
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
 .art img{
     width:300px;
+    max-width:100%;
     border-radius:10px;
 }
 
@@ -52,6 +59,7 @@ h1{
 
 .contact a{
     color:white;
+    text-decoration:none;
 }
 </style>
 
@@ -59,45 +67,56 @@ h1{
 <body>
 
 <header>
-    <h1>Rayen Art Gallery</h1>
-    <p>Original Artwork • Illustrations • Custom Commissions</p>
+
+<img src="logo.png" alt="Rayen Art Gallery Logo" class="logo">
+
+<h1>Rayen Art Gallery</h1>
+
+<p>Original Artwork • Illustrations • Custom Commissions</p>
+
 </header>
 
 <section>
-    <h2>Featured Artwork</h2>
 
-    <div class="gallery">
+<h2>Featured Artwork</h2>
 
-        <div class="art">
-            <img src="orca.jpg" alt="Orca Painting">
-            <h3>Orca Painting</h3>
-            <p>Original Orca Artwork</p>
-        </div>
+<div class="gallery">
 
-        <div class="art">
-            <img src="shark.jpg" alt="Shark Artwork">
-            <h3>Shark Artwork</h3>
-            <p>Original Shark Artwork</p>
-        </div>
+<div class="art">
+    <img src="orca.jpg" alt="Orca Painting">
+    <h3>Orca Painting</h3>
+    <p>Original Orca Artwork</p>
+</div>
 
-        <div class="art">
-            <img src="portrait.jpg" alt="Portrait Drawing">
-            <h3>Portrait Drawing</h3>
-            <p>Custom Portrait Commission</p>
-        </div>
+<div class="art">
+    <img src="shark.jpg" alt="Shark Artwork">
+    <h3>Shark Artwork</h3>
+    <p>Original Shark Artwork</p>
+</div>
 
-    </div>
+<div class="art">
+    <img src="portrait.jpg" alt="Portrait Drawing">
+    <h3>Portrait Drawing</h3>
+    <p>Custom Portrait Commission</p>
+</div>
+
+</div>
+
 </section>
 
 <div class="contact">
-    <h2>Contact</h2>
-    <p>Email: rayen.mbarek54@gmail.com</p>
-    <p>
-        Instagram:
-        <a href="https://www.instagram.com/rayen_m.barek?igsh=NGVrb2NlcnFrMGxo" target="_blank">
-            @rayen_m.barek
-        </a>
-    </p>
+
+<h2>Contact</h2>
+
+<p>Email: rayen.mbarek54@gmail.com</p>
+
+<p>
+Instagram:
+<a href="https://www.instagram.com/rayen_m.barek?igsh=NGVrb2NlcnFrMGxo" target="_blank">
+@rayen_m.barek
+</a>
+</p>
+
 </div>
 
 </body>
